@@ -1,0 +1,30 @@
+.pet{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+@media(max-width:375px){
+    .pet{
+       flex-wrap: wrap;
+    }
+}
+H1{
+    background-color: cadetblue;
+    border: 10px solid rgb(183, 0, 255);
+}
+.card{
+    border: 5px solid;
+    margin-top: 20px;
+    background-color: aqua;
+    
+}
+.card1{
+    border: 5px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: lightgreen;
+}
+body{
+    background-color: rgb(255, 150, 150);
+}
